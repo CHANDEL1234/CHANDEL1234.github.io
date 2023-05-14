@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="laptops-low-resolution-logo-white-on-black-background.png" alt="laptop.com">
+        </div>
+        <ul>
+            <li class="item"><a href="code.html">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="login.html">Log in</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div>
+            <a href=""><img src="icons8-shopping-cart-64 (1).png" alt="" height="50px" width="50px"></a>
+        </div>
+    </nav>
+    <div class="card">
+        <div class="img">
+            <img src="omen1.webp" alt="" onclick="clk(this)"> <br>
+            <img src="omenleft.avif" alt="" onclick="clk(this)"> <br>
+            <img src="omenright.avif" alt="" onclick="clk(this)"> <br>
+            <img src="omenside.avif" alt="" onclick="clk(this)"> <br>
+            <img src="omentoo.avif" alt="" onclick="clk(this)"> <br>
+
+        </div>
+        <div class="left">
+            <img src="omen1.webp" id="imgs" alt="">
+        </div>
+
+        <div class="right">
+            <h3>SUMMER SALE</h3>
+            <h1>OMEN by HP Laptop 17-ck1022TX</h1>
+            <h1>₹3140</h1>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <h3>Brand : HP</h3>
+            <h4>SPECIFICATIONS</h4>
+            <p>: 12th Generation Intel® Core™ i7 processor</p>
+            <p>: 43.9 cm (17.3) diagonal QHD display 165 Hz 3 ms response time</p>
+            <p>: NVIDIA® GeForce RTX™ 3070 Ti</p>
+            <p>: 1 TB PCIe® NVMe™ SSD generation 4 </p>
+            <P>: Weighs: 2.78 kg</P>
+            <p>: RGB 4 zone Anti-ghosting KBD</p>
+            <br>
+            <button>Add To Cart</button>
+            <button>Buy Now</button>
+
+        </div>
+    </div>
+    <section id="products" class="section-p1">
+        <h2 id="best_product">Other Products</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="product1.jpg" alt="product-1">
+                <div class="description">
+                    <span>HP</span>
+                    <h5>HP Laptop 15s-fq5007TU</h5>
+                    <h4>₹46,999</h4>
+                </div>
+                <a href="#"><button class="Details-btn">Details</button></a>
+
+            </div>
+            <div class="pro">
+                <img src="product2.jpg" alt="product-1">
+                <div class="description">
+                    <span>HP</span>
+                    <h5>OMEN by HP Gaming Laptop 16 (40.9 cm) b1351TX</h5>
+                    <h4>₹96,999</h4>
+                </div>
+                <a href="#"><button class="Details-btn">Details</button></a>
+
+            </div>
+            <div class="pro">
+                <img src="product3.jpg" alt="product-1">
+                <div class="description">
+                    <span>HP</span>
+                    <h5>HP ENVY x360 2-in-1 Laptop 13-bf0085TU</h5>
+                    <h4>₹86,999</h4>
+                </div>
+                <a href="#"><button class="Details-btn">Details</button></a>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="payment">
+        <span class="flag"><img src="india-flag-icon.png" alt="" height="20px" width="30px"></span> &nbsp; &nbsp; India | Order by phone 1-(1800)-108-3453<span></span>
+        <br><br>
+        <hr>
+        <br>
+        <span><a href=""><img src="visa.gif" alt=""></a><a href=""><img src="paytm.gif" alt=""></a><a href="#"><img src="master.gif" alt=""></a> <a href=""><img src="mobikwik.gif" alt=""></a><a href=""><img src="cashcare.gif" alt=""></a><a href="#"><img src="cod.gif" alt=""></a></span>
+        <br><br><br><br>
+
+
+    </section>
+    <footer id="footer">
+        <div class="left">
+            <h2>CONTACT US</h2>
+            <P>Consumer Customers</P>
+            <p>1800 108 9979</p>
+            <p>Business Customers</p>
+            <p>1800 108 6767</p>
+            <p>Mon-Fri 9am-7pm</p>
+            <p>(excl. public holiday)</p>
+
+        </div>
+        <div class="center">
+            <h2>CUSTOMER SERVICE</h2>
+            <P>About us</P>
+            <p>Technical Support</p>
+            <p>Software</p>
+            <p>Terms & Conditions</p>
+            <p>FAQs</p>
+            <p>Contact Us</p>
+            <p>How to Order</p>
+            <P>product Review</P>
+        </div>
+        <div class="right">
+            <h1>MY LAPTOP</h1>
+            <p>My Account</p>
+            <p>Track My Order</p>
+            <p>Store Locator</p>
+            <p>Tech Takes</p>
+            <p>Sustainable Impact</p>
+        </div>
+    </footer>
+
+    <script>
+        function clk(newImg) {
+            let getImg = document.getElementById("imgs");
+            getImg.src = newImg.src;
+        }
+    </script>
+
+</body>
+
+</html>
