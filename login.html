@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <form action="login.php" method="POST">
     <div class="box">
         <div class="container">
             <div class="top">
@@ -18,15 +19,15 @@
                 <header>Login</header>
             </div>
             <div class="input-field">
-                <input type="text" class="input" placeholder="Username" id="">
+                <input type="text" class="input" placeholder="Username" id="" name="uname">
                 <i class='bx bx-user'></i>
             </div>
             <div class="input-field">
-                <input type="Password" class="input" placeholder="Password" id="">
+                <input type="Password" class="input" placeholder="Password" id="" name="password">
                 <i class='bx bx-lock-alt'></i>
             </div>
             <div class="input-field">
-                <input type="submit" class="submit" value="Login" id="">
+                <input type="submit" class="submit" value="Login" id="" name="submit">
             </div>
             <div class="two-col">
                 <div class="one">
@@ -39,6 +40,7 @@
             </div>
         </div>
     </div>
+</form>
 </body>
 
 </html>

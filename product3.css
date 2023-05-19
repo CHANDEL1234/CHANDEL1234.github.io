@@ -1,0 +1,262 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding-right: 80px;
+    padding-top: 0px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+/* Navigation Bar: Logo and Image */
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 65px;
+    margin: 3px 6px;
+    border-radius: 200px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.card {
+    display: flex;
+    margin: 32px 32px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.card .img {
+    margin-top: 20px;
+}
+
+.left img {
+    width: 366px;
+    margin-inline: 32px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.card .img img {
+    width: 74px;
+    margin-left: 22px;
+    cursor: pointer;
+    border-right: 0.1px solid rgb(216, 215, 215);
+    border-left: 0.1px solid rgb(216, 215, 215);
+    border-bottom: 0.1px solid rgb(216, 215, 215);
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(77, 77, 77, 0.1);
+}
+
+.card .right {
+    margin-top: 20px;
+}
+
+.right h3 {
+    margin-top: 11px;
+    color: gray;
+}
+
+.right h1 {
+    margin-top: 11px;
+}
+
+.right i {
+    margin-top: 11px;
+    color: green;
+}
+
+.right h4 {
+    margin-top: 11px;
+}
+
+.right p {
+    margin-top: 11px;
+}
+
+.right button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(15, 136, 235);
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 22px;
+    margin-inline: 22px;
+    font-weight: 600;
+    margin-left: 1px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.right button:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#products {
+    text-align: center;
+    font-size: larger;
+}
+
+#best_product {
+    color: black;
+}
+
+#products .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    background-color: white;
+}
+#products .pro div{
+    padding: 20px 10px 10px;
+}
+
+#products .pro:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#products .pro img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Details-btn {
+    padding: 5px 15px;
+    margin-top: 10px;
+    background-color: #165dba;
+    font-size: medium;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin: 50px 100px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(41, 41, 44);
+    min-height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#footer .left,
+.center,
+.right {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: transparent;
+
+border-radius:50px ;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: transparent;}
